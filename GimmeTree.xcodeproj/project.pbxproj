@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		7BF015712BE2718900A720EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015702BE2718900A720EF /* AppDelegate.swift */; };
 		7BF015732BE2718900A720EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015722BE2718900A720EF /* SceneDelegate.swift */; };
-		7BF015752BE2718900A720EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015742BE2718900A720EF /* ViewController.swift */; };
+		7BF015752BE2718900A720EF /* TreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015742BE2718900A720EF /* TreeViewController.swift */; };
 		7BF015782BE2718900A720EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF015762BE2718900A720EF /* Main.storyboard */; };
 		7BF0157A2BE2718D00A720EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF015792BE2718D00A720EF /* Assets.xcassets */; };
 		7BF0157D2BE2718D00A720EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF0157B2BE2718D00A720EF /* LaunchScreen.storyboard */; };
 		7BF015882BE2718D00A720EF /* GimmeTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015872BE2718D00A720EF /* GimmeTreeTests.swift */; };
 		7BF015922BE2718D00A720EF /* GimmeTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015912BE2718D00A720EF /* GimmeTreeUITests.swift */; };
 		7BF015942BE2718D00A720EF /* GimmeTreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015932BE2718D00A720EF /* GimmeTreeUITestsLaunchTests.swift */; };
+		7BF015A52BE27DE800A720EF /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015A42BE27DE800A720EF /* BinaryTreeNode.swift */; };
+		7BF015A72BE27EC000A720EF /* BinaryTreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015A62BE27EC000A720EF /* BinaryTreeViewModel.swift */; };
+		7BF015A92BE286FA00A720EF /* BinaryTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015A82BE286FA00A720EF /* BinaryTreeView.swift */; };
+		7BF015AD2BE2926F00A720EF /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF015AC2BE2926F00A720EF /* DummyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		7BF0156D2BE2718900A720EF /* GimmeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GimmeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF015702BE2718900A720EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BF015722BE2718900A720EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7BF015742BE2718900A720EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BF015742BE2718900A720EF /* TreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeViewController.swift; sourceTree = "<group>"; };
 		7BF015772BE2718900A720EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BF015792BE2718D00A720EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF0157C2BE2718D00A720EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		7BF0158D2BE2718D00A720EF /* GimmeTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GimmeTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF015912BE2718D00A720EF /* GimmeTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimmeTreeUITests.swift; sourceTree = "<group>"; };
 		7BF015932BE2718D00A720EF /* GimmeTreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimmeTreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BF015A42BE27DE800A720EF /* BinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
+		7BF015A62BE27EC000A720EF /* BinaryTreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeViewModel.swift; sourceTree = "<group>"; };
+		7BF015A82BE286FA00A720EF /* BinaryTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeView.swift; sourceTree = "<group>"; };
+		7BF015AC2BE2926F00A720EF /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,15 @@
 		7BF0156F2BE2718900A720EF /* GimmeTree */ = {
 			isa = PBXGroup;
 			children = (
+				7BF015AB2BE2924F00A720EF /* Utilities */,
+				7BF015AA2BE2900300A720EF /* Extensions */,
+				7BF015A32BE27D1600A720EF /* ViewModel */,
+				7BF015A22BE27D1000A720EF /* View */,
+				7BF015A12BE27CFF00A720EF /* Controller */,
+				7BF015A02BE27CF900A720EF /* Model */,
 				7BF015702BE2718900A720EF /* AppDelegate.swift */,
 				7BF015722BE2718900A720EF /* SceneDelegate.swift */,
-				7BF015742BE2718900A720EF /* ViewController.swift */,
+				7BF015742BE2718900A720EF /* TreeViewController.swift */,
 				7BF015762BE2718900A720EF /* Main.storyboard */,
 				7BF015792BE2718D00A720EF /* Assets.xcassets */,
 				7BF0157B2BE2718D00A720EF /* LaunchScreen.storyboard */,
@@ -125,6 +139,52 @@
 				7BF015932BE2718D00A720EF /* GimmeTreeUITestsLaunchTests.swift */,
 			);
 			path = GimmeTreeUITests;
+			sourceTree = "<group>";
+		};
+		7BF015A02BE27CF900A720EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BF015A42BE27DE800A720EF /* BinaryTreeNode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BF015A12BE27CFF00A720EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7BF015A22BE27D1000A720EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BF015A82BE286FA00A720EF /* BinaryTreeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7BF015A32BE27D1600A720EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7BF015A62BE27EC000A720EF /* BinaryTreeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7BF015AA2BE2900300A720EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7BF015AB2BE2924F00A720EF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7BF015AC2BE2926F00A720EF /* DummyData.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF015752BE2718900A720EF /* ViewController.swift in Sources */,
+				7BF015752BE2718900A720EF /* TreeViewController.swift in Sources */,
+				7BF015A92BE286FA00A720EF /* BinaryTreeView.swift in Sources */,
 				7BF015712BE2718900A720EF /* AppDelegate.swift in Sources */,
+				7BF015AD2BE2926F00A720EF /* DummyData.swift in Sources */,
+				7BF015A52BE27DE800A720EF /* BinaryTreeNode.swift in Sources */,
+				7BF015A72BE27EC000A720EF /* BinaryTreeViewModel.swift in Sources */,
 				7BF015732BE2718900A720EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
